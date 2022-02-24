@@ -3,6 +3,7 @@
     <Navbar :mode="mode" @toggle="toggle"/>
     <router-view />
   </div>
+<!--  TODO: 1. continue follow me section 2. Hero image right 3. Footer 4. Dark Mode rollback to light after refreshed -->
 </template>
 
 <script>
