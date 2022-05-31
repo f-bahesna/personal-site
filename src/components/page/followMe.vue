@@ -1,8 +1,10 @@
 <template>
-  <div class="bg-sky-200">
-    <div class="container flex flex-col px-6 pt-12 sm:py-4 mx-auto space-y-6 md:h-128 md:py-16 md:flex-row md:items-center md:space-x-6">
-      <div class="flex mt-5 font-black text-3xl">Follow Me:</div>
-      <div class="flex flex-row gap-4">
+  <div class="bg-sky-200 py-6">
+    <div class="container flex flex-col-md md:px-6 pt-12 px-12 sm:py-4 mx-auto md:h-128 md:py-12 md:flex-row md:items-center md:space-x-6">
+      <div>
+        <h1 class="flex md:mt-5 font-black text-black text-2xl mr-4 md:text-3xl">Follow Me :</h1>
+      </div>
+      <div class="flex flex-row md:mx-auto gap-4">
         <a href="https://github.com/f-bahesna" alt="github" class="hover:bg-sky-800 hover:shadow-lg focus:bg-sky-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out" target="_blank">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1">
             <g id="surface1">

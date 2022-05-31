@@ -3,7 +3,7 @@
     <div class="flex flex-col items-center w-full md:flex-row md:w-1/2">
       <div class="max-w-lg md:mx-12 md:order-2 text-center sm:text-left">
         <h1 class="text-3xl font-medium tracking-wide md:text-4xl" alt="frada">Hi! <span class="font-bold">I'm Frada</span></h1>
-        <p class="mt-4" alt="introducing lianum frada bahesna">Software Engineer Specializing in Backend <br> Currently working at a Fintech Startup based in <span class="text-2xl">INDONESIA</span></p>
+        <p class="mt-4" alt="introducing lianum frada bahesna">Software Engineer Specialized in Backend <br> Currently working at a Fintech Startup based in <span class="text-2xl">INDONESIA</span></p>
         <div class="mt-4 sm:mt-9">
           <a href="#" class="block px-12 py-4 font-semibold text-center text-white transition-colors duration-200 transform bg-blue-500 rounded-sm md:inline hover:bg-blue-400">Get in touch</a>
         </div>
