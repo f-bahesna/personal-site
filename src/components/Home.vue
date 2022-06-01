@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="flex items-center justify-center w-full h-96 md:w-1/2">
-      <img class="object-cover w-1/2 h-1/2 sm:h-full max-w-2xl -mt-12 sm:mt-0 rounded-md" src="src/assets/frada.JPG" alt="lianum frada bahesna">
+      <img class="object-cover w-1/2 h-1/2 sm:h-full max-w-2xl -mt-12 sm:mt-0 rounded-md" src="/src/assets/frada.JPG" alt="lianum frada bahesna">
     </div>
   </div>
   <follow-me />
