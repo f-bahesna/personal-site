@@ -1,34 +1,38 @@
 <template>
   <div class="app mx-auto" :class="mode">
-    <Navbar :mode="mode" @toggle="toggle"/>
+    <Navbar :mode="mode" @toggle="toggle" />
     <router-view />
   </div>
-<!--  TODO: 1. continue follow me section 2. Hero image right 3. Footer 4. Dark Mode rollback to light after refreshed -->
+  <!--  TODO: 1. continue follow me section 2. Hero image right 3. Footer 4. Dark Mode rollback to light after refreshed -->
 </template>
 
 <script>
 import Navbar from "./components/base/Navbar.vue";
 export default {
-  data () {
+  data() {
+    let display = localStorage.getItem("display")
+
     return {
-      mode: 'light'
+      mode: display ?? "light"
     }
   },
-  components: {Navbar},
-  created () {
+  components: { Navbar },
+  created() {
     window.addEventListener('keyup', this.keyPress)
   },
   methods: {
-    keyPress (e) {
+    keyPress(e) {
       if (e.key === 't') {
         this.toggle()
       }
     },
-    toggle () {
+    toggle() {
       if (this.mode === "dark") {
         this.mode = "light"
+        localStorage.setItem("display", this.mode)
       } else {
         this.mode = "dark"
+        localStorage.setItem("display", this.mode)
       }
     }
   }
@@ -55,5 +59,4 @@ export default {
   background: #192734;
   color: #E8E8E8;
 }
-
 </style>
