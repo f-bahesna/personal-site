@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --bg: #111;
+  --grid-highlight: #bbb;
+  --citation-bg-color: #1E0519;
+  --citation-p-color: Salmon;
+  --citation-a-color: MediumVioletRed;
+  --citation-a-hover-color: DeepPink;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  &:focus {
+    outline: none;
+  }
+}
+
+
+
+
